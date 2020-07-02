@@ -14,7 +14,7 @@ describe('AppService', () => {
   });
 
   describe('action', () => {
-    it('should respond with a string for numbers greater than 20"', () => {
+    it('should respond with {status: "ok" } for numbers greater than 20"', () => {
       expect(true).toBe(false)
     });
 
