@@ -14,6 +14,10 @@ describe('AppService', () => {
   });
 
   describe('action', () => {
+    it('shoud be defined', () => {
+      expect(appService).toBeDefined()
+    })
+
     it('should respond with {status: "ok" } for numbers greater than 20"', () => {
       expect(true).toBe(false)
     });
